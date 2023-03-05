@@ -1,4 +1,4 @@
-package com;
+package com.tugas1;
 
 public class PersegiPanjang implements MenghitungBidang {
     float p, l; // Panjang, Lebar

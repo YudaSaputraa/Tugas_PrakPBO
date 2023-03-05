@@ -1,4 +1,4 @@
-package com;
+package com.tugas1;
 
 public class Balok extends PersegiPanjang implements MenghitungRuang {
     float t; // Float Tinggi

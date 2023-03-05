@@ -1,4 +1,4 @@
-package com;
+package com.tugas1;
 
 public class Lingkaran implements MenghitungBidang {
     float r; // jari jari

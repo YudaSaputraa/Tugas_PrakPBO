@@ -1,7 +1,7 @@
 package com.tugas1;
 
 public class Balok extends PersegiPanjang implements MenghitungRuang {
-    float t; // Float Tinggi
+    private float t; // Float Tinggi
 
     public Balok(float p, float l, float t) {
         super(p, l);
@@ -15,15 +15,18 @@ public class Balok extends PersegiPanjang implements MenghitungRuang {
 
     @Override
     public float luasPermukaan() {
-        return 2*(this.luasBidang()+this.p * this.t + this.l *this.t );
+        float p = getp();
+        float t = getT();
+        float l = getl();
+        return 2 * (this.luasBidang() + p * t + l * t);
     }
 
     public float getT() {
-        return t;
+        return this.t;
     }
 
     public void setT(float t) {
         this.t = t;
     }
-    
+
 }

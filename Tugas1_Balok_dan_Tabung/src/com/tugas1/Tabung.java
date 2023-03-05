@@ -1,7 +1,7 @@
 package com.tugas1;
 
 public class Tabung extends Lingkaran implements MenghitungRuang {
-    float t; // Float Tinggi
+    private float t; // Float Tinggi
 
     public Tabung(float r, float t) {
         super(r);
@@ -16,11 +16,13 @@ public class Tabung extends Lingkaran implements MenghitungRuang {
 
     @Override
     public float luasPermukaan() {
-        return this.kelilingBidang() * (this.r + this.t);
+        float r = getR();
+        float t = getT();
+        return this.kelilingBidang() * (r + t);
     }
 
     public float getT() {
-        return t;
+        return this.t;
     }
 
     public void setT(float t) {

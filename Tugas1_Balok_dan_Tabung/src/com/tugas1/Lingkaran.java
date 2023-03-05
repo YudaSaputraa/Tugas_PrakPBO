@@ -1,7 +1,7 @@
 package com.tugas1;
 
 public class Lingkaran implements MenghitungBidang {
-    float r; // jari jari
+   private float r; // jari jari
 
     public Lingkaran(float r) {
         this.r = r;

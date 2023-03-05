@@ -1,7 +1,7 @@
 package com.tugas1;
 
 public class PersegiPanjang implements MenghitungBidang {
-    float p, l; // Panjang, Lebar
+    private float p, l; // Panjang, Lebar
 
     public PersegiPanjang(float p, float l) {
         this.p = p;

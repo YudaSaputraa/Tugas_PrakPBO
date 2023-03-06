@@ -11,9 +11,9 @@ public class Main {
     public static void main(String[] args) {
         int inputBack;
         do {
-            System.out.println("=========================\n");
+            System.out.println("==========================\n");
             System.out.println("\tMENU UTAMA\n");
-            System.out.println("=========================");
+            System.out.println("==========================");
             System.out.println("1. Hitung Balok");
             System.out.println("2. Hitung Tabung");
             System.out.println("0. Exit\n");

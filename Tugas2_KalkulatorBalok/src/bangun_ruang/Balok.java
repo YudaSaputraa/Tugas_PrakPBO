@@ -12,7 +12,6 @@ import bangun_datar.*;
  */
 public class Balok extends PersegiPanjang implements HitungRuang {
 
-
     private double t;
     double luasPermukaanBalok, volumeBalok;
 

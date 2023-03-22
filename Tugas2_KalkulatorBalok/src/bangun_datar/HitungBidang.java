@@ -9,13 +9,15 @@ package bangun_datar;
  * @author Yudha
  */
 public interface HitungBidang {
-    default double hitungLuas(){
+
+    default double hitungLuas() {
         System.out.println("Hitung Bidang");
         return 0;
     }
-    default double hitungKeliling(){
+
+    default double hitungKeliling() {
         System.out.println("Hitung Keliling");
         return 0;
     }
-    
+
 }

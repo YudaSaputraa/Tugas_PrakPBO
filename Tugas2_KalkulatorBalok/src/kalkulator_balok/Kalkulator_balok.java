@@ -9,6 +9,7 @@ package kalkulator_balok;
  * @author Yudha
  */
 public class Kalkulator_balok {
+
     public static void main(String[] args) {
         GUI gui = new GUI();
     }

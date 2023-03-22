@@ -9,6 +9,7 @@ package bangun_datar;
  * @author Yudha
  */
 public class PersegiPanjang implements HitungBidang {
+
     private double p, l;
     public double luasPersegiPanjang, kelilingPersegiPanjang;
 
@@ -49,15 +50,17 @@ public class PersegiPanjang implements HitungBidang {
         this.l = l;
         hitungLuas();
         hitungKeliling();
-      
+
     }
+
     @Override
-    public double hitungLuas(){
-        luasPersegiPanjang =  this.p * this.l;
+    public double hitungLuas() {
+        luasPersegiPanjang = this.p * this.l;
         return luasPersegiPanjang;
     }
+
     @Override
-    public double hitungKeliling(){
+    public double hitungKeliling() {
         kelilingPersegiPanjang = ((this.p + this.l) * 2);
         return kelilingPersegiPanjang;
     }

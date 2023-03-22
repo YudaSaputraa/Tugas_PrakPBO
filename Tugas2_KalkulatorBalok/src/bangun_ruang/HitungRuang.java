@@ -9,14 +9,16 @@ package bangun_ruang;
  * @author Yudha
  */
 public interface HitungRuang {
-    default double volumeRuang(){
+
+    default double volumeRuang() {
         System.out.println("Volume");
-    return 0;
+        return 0;
     }
-    default double luasPermukaan(){
+
+    default double luasPermukaan() {
         System.out.println("Luas Permukaan");
         return 0;
-        
+
     }
-    
+
 }
